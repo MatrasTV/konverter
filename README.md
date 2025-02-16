@@ -68,24 +68,6 @@
 }
 ```
 
-## Возможные ошибки и их устранение
-
-### Ошибка: "Fast Octree (method=2) and libimagequant (method=3) are the only valid methods for quantizing RGBA images"
-
-- Это происходит, если изображение имеет альфа-канал (RGBA).
-- Программа автоматически преобразует такие изображения в RGB. Убедитесь, что используете последнюю версию кода.
-
-### Ошибка: "pyinstaller" не распознан
-
-- Убедитесь, что PyInstaller установлен:
-  ```bash
-  pip install pyinstaller
-  ```
-- Используйте команду для создания `.exe`:
-  ```bash
-  pyinstaller --onefile --noconsole main.py
-  ```
-
 ## Автор
 
 MatrasTV
