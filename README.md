@@ -68,11 +68,6 @@
 }
 ```
 
-## Требования
-
-- Python 3.7+
-- Библиотека Pillow
-
 ## Возможные ошибки и их устранение
 
 ### Ошибка: "Fast Octree (method=2) and libimagequant (method=3) are the only valid methods for quantizing RGBA images"
